@@ -3,3 +3,4 @@ kind: Kustomization
 
 resources:
 - sa-crb.yaml
+- secretstore.yaml
