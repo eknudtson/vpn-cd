@@ -20,7 +20,7 @@ spec:
         - run
         - --token
         - $(TOKEN)
-        image: cloudflare/cloudflared:2025.5.0
+        image: cloudflare/cloudflared:2026.3.0
         name: cloudflared
         env:
         - name: TOKEN
